@@ -4155,3 +4155,32 @@ input, select, textarea {
 		}
 
 	}
+
+	/* PDF */
+
+	#pdf-container {
+		max-width: 100%;
+		overflow: auto;
+	  }
+	
+	  #pdf {
+		width: 100%;
+	  }
+	
+	  #download-link {
+		display: none;
+	  }
+	
+	  @media (max-width: 768px) {
+		#pdf-container {
+		  max-width: none;
+		}
+	
+		#pdf {
+		  display: none;
+		}
+	
+		#download-link {
+		  display: block;
+		}
+	  }
